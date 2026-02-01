@@ -1,0 +1,103 @@
+@media screen and (max-width: 1600px){
+    .service-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 1400px){
+       #hero{
+        height: auto;
+        padding-bottom: 100px;
+       }
+       .hero-content{
+        height: auto;
+        margin-top: 30px;
+       }
+       .gobal-btn a{
+        font-size: 13px;
+       }
+}
+
+@media screen and (max-width: 900px){
+    .for-dektop{
+        display: none;
+    }
+    .navbar-brand img{
+        height: auto;
+    }
+    .hero-text{
+        margin-bottom: 40px;
+    }
+    .about-content{
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+    .revers{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-padding{
+        padding: 70px 0;
+    }
+    .center-title{
+        width: 100%;
+    }
+    .service-card{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .testmonail-card{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .Partnerships{
+        flex-direction: column;
+    }
+    .partnarship-left{
+        width: 100%;
+    }
+    .partnarship-right{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero-text {
+        text-align: center;
+    }
+    .hero-text h1{
+        font-size: 30px;
+    }
+       .hero-text img{
+        width: 90%;
+       }
+       #hero{
+        padding-bottom: 50px;
+       }
+       .dot-title{
+        text-align: center;
+       }
+       .about-content h2{
+        text-align: center;
+       }
+       .about-content h2 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+.partnarship-left{
+    padding: 30px 20px;
+}
+.cta-content h1{
+    font-size: 40px;
+}
+.cta-content p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+}
+
+
