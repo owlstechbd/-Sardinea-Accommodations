@@ -97,6 +97,12 @@
     font-size: 20px;
     line-height: 35px;
 }
+.test-video{
+    margin-top: 0px;
+}
+.test-video video {
+    width: 100%;
+}
 
 }
 

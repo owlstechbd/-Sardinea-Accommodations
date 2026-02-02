@@ -115,6 +115,7 @@ html{
 }
 
 .btn-join:hover{
+	background: #FFA500;
 	color: #000;
 }
 .navbar-nav li{
@@ -180,6 +181,7 @@ html{
 	margin: 50px 0;
 }
 .gobal-btn a{
+	display: inline-block;
 	background: linear-gradient(90deg, #FFA500 0%, #FFD68B 100%);
 	color: #000;
 	font-size: 16px;
@@ -188,6 +190,10 @@ html{
 	padding:16px 20px;
 	border-radius: 5px;
 	transition: .6s;
+}
+.gobal-btn a:hover{
+	background: linear-gradient(90deg, #FFA500 0%, #f9a200 100%);
+	transform: translateY(-10px);
 }
 .about{
 	background: #2A344F;
@@ -296,6 +302,13 @@ html{
 	height: 100%;
 	border-radius: 15px;
 	text-align: center;
+	border: 1px #081B36 solid;
+	transition: .6s;
+}
+.service-card:hover{
+	border: 1px #f9a200 solid;
+	background: #081b36a7;
+	transform: translateY(-10px);
 }
 .service-card img{
 	margin-bottom: 30px;
@@ -319,6 +332,17 @@ html{
 	padding: 30px;
 	height: 100%;
 	background: #081B36;
+	border-radius: 15px;
+	transition: .6s;
+	border: 1px #081B36 solid;
+}
+.testmonail-card:hover{
+	border: 1px #f9a200 solid;
+	background: #081b36a7;
+	transform: translateY(-10px);
+}
+.testmonail-or-img img{
+	margin: 30px 0;
 	border-radius: 15px;
 }
 .testy{
@@ -369,6 +393,14 @@ html{
 .p-btn{
 	width: 100%;
 	margin-top: 50px;
+}
+.test-video{
+	margin: 30px 0;
+}
+.test-video video{
+	width: 50%;
+	border-radius: 15px;
+	
 }
 .p-btn a{
 	color: #FFA500;
